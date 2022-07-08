@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Flipify',
   tagline: 'Simple, fast, and fun switch between hosting providers, third party integrations, and more.',
-  url: 'https://flipify.dev',
-  baseUrl: '/docs/',
+  url: 'https://testdlo.netlify.app',
+  baseUrl: "/docs/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/favicon.ico',
@@ -53,18 +53,18 @@ const config = {
       navbar: {
         title: 'Flipify',
         logo: {
-          alt: 'Flipify Logo',
+          alt: 'Dlipify Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             href: 'https://github.com/sponsors/flipify',
-            label: 'Sponsor',
+            label: 'dponsor',
             position: 'left',
           },
           {
             href: 'https://swag.flipify.dev',
-            label: 'Swag',
+            label: 'Dwag',
             position: 'left',
           },
           {
