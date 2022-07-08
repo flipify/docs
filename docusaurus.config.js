@@ -9,7 +9,7 @@ const config = {
   title: 'Flipify',
   tagline: 'Simple, fast, and fun switch between hosting providers, third party integrations, and more.',
   url: 'https://testdlo.netlify.app',
-  baseUrl: "/docs/",
+  baseUrl: "/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/favicon.ico',
@@ -89,11 +89,7 @@ const config = {
             items: [
               {
                 label: 'Getting started',
-                to: '/intro',
-              },
-              {
-                label: 'Contributing',
-                to: '/intro',
+                to: 'docs/intro',
               },
             ],
           },
