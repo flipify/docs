@@ -32,7 +32,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: 'docs',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -53,18 +53,18 @@ const config = {
       navbar: {
         title: 'Flipify',
         logo: {
-          alt: 'Dlipify Logo',
+          alt: 'Flipify Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             href: 'https://github.com/sponsors/flipify',
-            label: 'dponsor',
+            label: 'Sponsor',
             position: 'left',
           },
           {
             href: 'https://swag.flipify.dev',
-            label: 'Dwag',
+            label: 'Swag',
             position: 'left',
           },
           {
@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: 'Getting started',
-                to: 'docs/intro',
+                to: '/intro',
               },
             ],
           },
