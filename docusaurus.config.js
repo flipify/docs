@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/docs/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/favicon.ico',
+  favicon: '/flipify.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,10 +51,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Flipify',
+        title: '',
         logo: {
           alt: 'Flipify Logo',
-          src: 'img/logo.svg',
+          src: 'img/flipify.jpg',
         },
         items: [
           {
@@ -113,16 +113,12 @@ const config = {
                 label: 'Sponsor',
                 href: 'https://github.com/sponsors/flipify',
               },
-              {
-                label: 'Docusaurus',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
         logo: {
           alt: 'Flipify Logo',
-          src: '/img/flipify.svg',
+          src: '/img/flipify.jpg',
           href: 'https://flipify.dev',
         },
         copyright: `Copyright © ${new Date().getFullYear()} <a href='https://github.com/sponsors/flipify' target='_blank'>Flipify Creators</a> and <a href='tutorial-basics/create-a-page'>contributors</a>.`,
