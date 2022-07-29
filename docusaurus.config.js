@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Flipify',
   tagline: 'Simple, fast, and fun switch between hosting providers, third party integrations, and more.',
-  url: 'https://flipifydocs.netlify.app/',
+  url: 'https://flipify.dev',
   baseUrl: "/docs/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
